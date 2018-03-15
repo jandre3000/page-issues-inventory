@@ -1,0 +1,68 @@
+.page-title,
+.page-description {
+    text-align: center;
+}
+.page-nav {
+    display: flex;
+    max-width: 900px;
+    background-color: lightGrey;
+    margin: 1rem auto 0 auto;
+}
+.page-nav a {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.template-table {
+    margin: 0 auto;
+    table-layout: fixed;
+    max-width: 900px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 1px 15px -5px rgba(0, 0, 0, 0.5);
+    background: white;
+    border-collapse: collapse;
+}
+.template-table th {
+    background-color: rgb(236, 236, 236);
+    color: rgb(80, 80, 80);
+    padding: 1em;
+}
+.template-table tr {
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.template-name-cell {
+    font-size: 1rem;
+    font-weight: bold;
+    width: 15%;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    padding: 0.5rem;
+}
+.template-full-cell,
+.template-compact-cell {
+    max-width: 42.5%;
+    overflow: hidden;
+}
+.template-full-cell .template-title,
+.template-compact-cell .template-title {
+    display: none;
+}
+
+/* en, zh */
+.template-compact-cell .hide-when-compact {
+    display: none;
+}
+
+/* ru */
+.template-compact-cell .mbox-textsmall-div {
+    display: none;
+}
+
+/* fr */
+.template-compact-cell .bandeau-titre ~ p {
+    display: none;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "page-issue-inventory",
+  "version": "0.0.1",
+  "description": "Outputs a list of parsed Mediawiki templates",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "JDrewniak (WMF)",
+  "license": "MIT",
+  "devDependencies": {
+    "mwbot": "^1.0.10"
+  }
+}
